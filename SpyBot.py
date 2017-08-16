@@ -7,14 +7,14 @@ print ''
 print ''
 print ''
 print ''
-print 'Taking u all to the era of 70s'
+print 'Welcome to Community of SPY'
 print '|*****************************|'
 print '*'
 print '*'
 print '*'
 print '*'
 print '*'
-print 'Moon Techs'
+print 'dot Techs'
 print 'Welcomes you to the Future!'
 print '*'
 print '*'
@@ -25,19 +25,19 @@ print '*'
 print '|*****************************|'
 print ''
 print 'Featuring the most advanced A.I spy of our time!'
-print 'Heyy'
+print 'Hey BUDDY!!'
 dili = []
 friends = []
 secretmsg = []
 chat = []
-gender = raw_input('Male or Female:')
+gender = raw_input('Are  you Male or Female:')
 if gender.upper() == 'MALE' or gender.upper() == 'M':
     name = raw_input("Enter your name:")
     if name.isalpha():
         print ''
         time.sleep(0.5)
         print 'I am a Spy'
-        print 'Just for folks!!!'
+        print 'KhoooofiyA!!!'
         print ''
         print 'Welcome'
         marital = raw_input('Married or not? \n')
