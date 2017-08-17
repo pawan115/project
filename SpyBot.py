@@ -8,29 +8,22 @@ print ''
 print ''
 print ''
 print 'Welcome to Community of SPY'
-print '|*****************************|'
-print '*'
-print '*'
-print '*'
-print '*'
-print '*'
-print 'dot Techs'
-print 'Welcomes you to the Future!'
+print '____________________________'
 print '*'
 print '*'
 print '*'
 print '*'
 print '*'
 print '*'
-print '|*****************************|'
+print '*'
 print ''
-print 'Featuring the most advanced A.I spy of our time!'
+print ''
 print 'Hey BUDDY!!'
 dili = []
 friends = []
 secretmsg = []
 chat = []
-gender = raw_input('Are  you Male or Female:')
+gender = raw_input('Enter Your Sex:')
 if gender.upper() == 'MALE' or gender.upper() == 'M':
     name = raw_input("Enter your name:")
     if name.isalpha():
@@ -43,7 +36,7 @@ if gender.upper() == 'MALE' or gender.upper() == 'M':
         marital = raw_input('Married or not? \n')
         print 'Okay!'
         print ''
-        if marital.upper() == 'YES' or marital.upper() == 'MARRIED'or marital.upper() == 'Y':
+        if marital.upper() == 'YES' or marital.upper() == 'MARRIED':
             salutation = 'Mr.'
             marital = 'Married'
             print salutation + name
@@ -390,7 +383,7 @@ def start_chat():
                     c = a + b
                     print 'Here\'s your 1st Number:', a
                     print 'Here\'s your 2nd Number:', b
-                    summ = int(raw_input('What will be the sum?:'))
+                    summ = int(raw_input('What will be the SUM?:'))
                     if summ == c:
                         print 'Successfully Authenticated!'
                         for message in secretmsg:
